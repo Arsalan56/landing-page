@@ -7,6 +7,13 @@ body {
     flex-direction: column;
 }
 
+.main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    flex: 1;
+}
+
 .first, .header {
     background-color: #1F2937;
     padding: 0px 128px;
@@ -78,6 +85,7 @@ ul {
     margin: 0px;
     display: flex;
     gap: 16px;
+    margin-left: 16px;
 }
 
 
@@ -86,4 +94,46 @@ a, .hero-secondary{
     font-size: 18px;
     color: #E5E7EB;
     margin: 0px;
+}
+
+.second-cont {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 256px;
+    margin-bottom: 64px;
+    gap: 48px;
+}
+
+ .second-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.second-box {
+    border: 2px solid blue;
+    border-radius: 12px;
+    height: 175px;
+    width: 175px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.second-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 175px;
+}
+
+.subtext {
+    margin: 4px;
+    text-align: center;
+    color: grey;
 }
