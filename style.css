@@ -33,7 +33,7 @@ body {
     justify-content: center;
     padding-top: 64px;
     padding-bottom: 64px;
-    gap: 4px;
+    gap: 32px;
 }
 .left-first {
 
@@ -47,10 +47,12 @@ body {
     flex: 1;
 }
 
-.img-first {
+.placeholder {
+    color: #F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: grey;
 }
 
 .hero-main {
